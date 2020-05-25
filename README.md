@@ -1,2 +1,2 @@
-Mon CV en ligne
+Mon CV en ligne : 
 https://andrea-beyer.netlify.app
