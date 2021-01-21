@@ -6,6 +6,17 @@ $(function(){
         } catch (e) {
             alert(e.message);
         }
+        $('.fnone').each(function () {     
+            
+            if($(this).attr('src') == "images\\united-kingdom.png"){
+
+                $(this).attr('alt', 'choice of English language');
+            }
+            else{
+                $(this).attr('alt', 'choix de la langue francaise');
+            }
+            
+        });
     });
 
 
@@ -17,5 +28,7 @@ $(function(){
         $('body,html').animate({scrollTop: $(hash).offset().top} , 900 , function(){window.location.hash = hash;})
         
     });
+
+    
 
 })
