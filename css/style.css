@@ -78,9 +78,13 @@ ul,ol{
     margin-top: 20px;
     padding: 20px 30px;
     border-radius: 10px;
-    transition: all 0.3s ease-in 0s;
-    
+    transition: all 0.3s ease-in 0s;    
 }
+
+a.button1{
+    width: 200px;
+}
+
 
 .button1:hover{
     background: white;
