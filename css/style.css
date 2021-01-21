@@ -330,7 +330,7 @@ footer{
     position: fixed;
     top: 90px;
     right: 1em;
-    width: 100px!important;
+    width: 60px!important;
     z-index: 10;
 }
 
@@ -340,4 +340,8 @@ footer{
 
 #webmenu{
     display: none;
+}
+
+.ddlabel{
+    font-weight: bold;
 }
