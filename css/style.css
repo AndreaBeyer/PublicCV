@@ -321,3 +321,19 @@ footer{
 .col1{
     padding: 5px
 }
+
+#webmenu_msdd{
+    position: fixed;
+    top: 90px;
+    right: 1em;
+    width: 100px!important;
+    z-index: 10;
+}
+
+#webmenu_msddHolder{
+    background-color: #5cc6fe;
+}
+
+#webmenu{
+    display: none;
+}
